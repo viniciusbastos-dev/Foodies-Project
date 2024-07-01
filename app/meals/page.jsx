@@ -15,16 +15,18 @@ const MealsPage = () => {
     <>
       <header className={styles.header}>
         <h1>
-          Delicious meals, created{" "}
-          <span className={styles.highlight}>by you</span>
+          Refeições deliciosas, criadas{" "}
+          <span className={styles.highlight}>por você</span>
         </h1>
         <p>
-          Choose your favorite recipe and cook it yourself. It is easy and fun!
+          Escolha sua receita favorita e cozinhe você mesmo. É fácil e
+          divertido!
         </p>
         <p className={styles.cta}>
-          <Link href="/meals/share">Share Your Favorite Recipe</Link>
+          <Link href="/meals/share">Compartilhe Sua Receita Favorita</Link>
         </p>
       </header>
+
       <main className={styles.main}>
         <Suspense fallback={<MealsLoadingPage />}>
           <Meals />

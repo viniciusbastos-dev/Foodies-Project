@@ -18,7 +18,7 @@ const MealItem = ({ title, slug, image, summary, creator }) => {
       <div className={styles.content}>
         <p className={styles.summary}>{summary}</p>
         <div className={styles.actions}>
-          <Link href={`/meals/${slug}`}>View Details</Link>
+          <Link href={`/meals/${slug}`}>Ver detalhes</Link>
         </div>
       </div>
     </article>
