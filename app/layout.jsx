@@ -2,13 +2,14 @@ import MainHeader from "@/components/MainHeader";
 import "./globals.css";
 
 export const metadata = {
-  title: "Foodies",
-  description: "Delicious meals, shared by a food-loving community.",
+  title: "NextLevel Food",
+  description:
+    "Refeições deliciosas, compartilhadas por uma comunidade apaixonada por comida.",
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="pt-BR">
       <body>
         <MainHeader />
         {children}

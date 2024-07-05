@@ -5,6 +5,12 @@ import MealsGrid from "@/components/MealsGrid";
 import { getMeals } from "@/lib/meals";
 import MealsLoadingPage from "./loading-out";
 
+export const metadata = {
+  title: "Todos os pratos",
+  description:
+    "Navegue pelas refeições deliciosas compartilhadas por nossa vibrante comunidade.",
+};
+
 async function Meals() {
   const meals = await getMeals();
   return <MealsGrid meals={meals} />;

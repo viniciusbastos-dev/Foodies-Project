@@ -4,6 +4,16 @@ import Image from "next/image";
 import { getMeal } from "@/lib/meals";
 import { notFound } from "next/navigation";
 
+export async function generateMetadata({ params }) {
+  const meal = getMeal(params.mealSlug);
+
+  if (!meal) {
+    notFound();
+  }
+
+  return { title: meal.title, description: meal.summary };
+}
+
 const MealDetailsPage = ({ params }) => {
   const meal = getMeal(params.mealSlug);
 
@@ -17,7 +27,11 @@ const MealDetailsPage = ({ params }) => {
     <>
       <header className={styles.header}>
         <div className={styles.image}>
-          <Image src={meal.image} alt={meal.title} fill />
+          <Image
+            src={`https://viniciusbastos-next-demo-users-image.s3.us-east-2.amazonaws.com/${meal.image}`}
+            alt={meal.title}
+            fill
+          />
         </div>
         <div className={styles.headerText}>
           <h1>{meal.title}</h1>

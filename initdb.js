@@ -5,7 +5,7 @@ const dummyMeals = [
   {
     title: "Hambúrguer Suculento de Queijo",
     slug: "hamburguer-suculento-de-queijo",
-    image: "/images/burger.jpg",
+    image: "burger.jpg",
     summary:
       "Um hambúrguer de dar água na boca com um suculento bife de carne e queijo derretido, servido em um pão macio.",
     instructions: `
@@ -27,7 +27,7 @@ const dummyMeals = [
   {
     title: "Curry Picante",
     slug: "curry-picante",
-    image: "/images/curry.jpg",
+    image: "curry.jpg",
     summary:
       "Um curry rico e picante, infundido com especiarias exóticas e leite de coco cremoso.",
     instructions: `
@@ -52,7 +52,7 @@ const dummyMeals = [
   {
     title: "Dumplings Caseiros",
     slug: "dumplings-caseiros",
-    image: "/images/dumplings.jpg",
+    image: "dumplings.jpg",
     summary:
       "Dumplings macios recheados com carne saborosa e vegetais, cozidos no vapor até a perfeição.",
     instructions: `
@@ -74,7 +74,7 @@ const dummyMeals = [
   {
     title: "Macarrão com Queijo Clássico",
     slug: "macarrao-com-queijo-classico",
-    image: "/images/macncheese.jpg",
+    image: "macncheese.jpg",
     summary:
       "Macarrão cremoso e queijo, um clássico reconfortante que agrada a todos.",
     instructions: `
@@ -99,7 +99,7 @@ const dummyMeals = [
   {
     title: "Pizza Autêntica",
     slug: "pizza-autentica",
-    image: "/images/pizza.jpg",
+    image: "pizza.jpg",
     summary:
       "Pizza de massa feita à mão com molho de tomate picante, coberturas frescas e queijo derretido.",
     instructions: `
@@ -121,7 +121,7 @@ const dummyMeals = [
   {
     title: "Wiener Schnitzel",
     slug: "wiener-schnitzel",
-    image: "/images/schnitzel.jpg",
+    image: "schnitzel.jpg",
     summary:
       "Costeleta de vitela empanada, crocante e dourada, um prato clássico austríaco.",
     instructions: `
@@ -143,7 +143,7 @@ const dummyMeals = [
   {
     title: "Salada Fresca de Tomate",
     slug: "salada-fresca-de-tomate",
-    image: "/images/tomato-salad.jpg",
+    image: "tomato-salad.jpg",
     summary:
       "Uma salada leve e refrescante com tomates maduros, manjericão fresco e um vinagrete picante.",
     instructions: `
